@@ -49,10 +49,28 @@ claude code install lorenzodetomasi/elite-claude-agents
 
 ## 🎯 How to Use Elite Agents with Claude Code - Step by Step
 
+### How It Works Behind the Scenes
+
+When you install the agents in `~/.claude/agents/`, Claude Code automatically:
+1. **Scans** the agents directory for all `.md` files
+2. **Reads** the YAML frontmatter (name, description, model)
+3. **Loads** agent instructions when relevant to your request
+4. **Activates** the right specialists based on your task
+
 ### Step 1: Install the Agents
 ```bash
 cd ~/.claude
 git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
+```
+
+This creates the structure:
+```
+~/.claude/
+└── agents/
+    ├── react-wizard.md
+    ├── aws-architect.md
+    ├── kubernetes-pilot.md
+    └── ... (97 more agents)
 ```
 
 ### Step 2: Start Claude Code
@@ -61,6 +79,8 @@ claude code
 ```
 
 ### Step 3: Use Agents in Your Conversations
+
+Claude automatically detects which agents to use based on your request:
 
 **Example 1: Building a React App**
 ```
@@ -136,9 +156,9 @@ You: I want to build a real-time collaborative editor like Google Docs
 
 Claude: I'll assemble a specialized team for building a real-time collaborative editor:
 
-🎯 **Activating agents:**
+🎯 **Activating agents:** (from ~/.claude/agents/)
 - react-wizard (frontend architecture)
-- websocket-expert (real-time sync)
+- websocket-expert (real-time sync)  
 - nodejs-expert (backend server)
 - mongodb-master (document storage)
 - redis-specialist (session management)
