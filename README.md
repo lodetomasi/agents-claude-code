@@ -1,10 +1,10 @@
 # 🚀 Elite Claude Agents Collection
 
-> 82 hyper-specialized AI agents that transform Claude into your personal tech army
+> 100 hyper-specialized AI agents that transform Claude into your personal tech army
 
 ## The Power-Up You've Been Waiting For
 
-Imagine having instant access to 82 world-class specialists, each a master of their craft. No more context switching. No more shallow knowledge. Just deep, focused expertise on demand.
+Imagine having instant access to 100 world-class specialists, each a master of their craft. No more context switching. No more shallow knowledge. Just deep, focused expertise on demand.
 
 ## Lightning Setup ⚡
 
@@ -130,22 +130,25 @@ No ramp-up time. Each agent comes pre-loaded with years of experience.
 ## The Complete Roster
 
 **Languages & Frameworks** (20 agents)
-`python-alchemist` `rust-evangelist` `golang-guru` `java-architect` `typescript-sage` `swift-specialist` `kotlin-expert` `ruby-craftsman` `php-professional` `cpp-master` `dotnet-expert` `elixir-wizard` `nodejs-ninja` `deno-developer` `bun-expert`
+`python-alchemist` `rust-evangelist` `golang-guru` `java-architect` `typescript-sage` `swift-specialist` `kotlin-expert` `ruby-craftsman` `php-professional` `cpp-master` `dotnet-expert` `elixir-wizard` `nodejs-ninja` `deno-developer` `bun-expert` `solidity-sage`
 
-**Frontend Masters** (15 agents)
-`react-wizard` `vue-virtuoso` `angular-authority` `svelte-sorcerer` `nextjs-architect` `remix-rockstar` `flutter-expert` `visual-architect` `tailwind-artist` `sass-sculptor` `webgl-wizard` `pwa-pioneer` `jamstack-ninja`
+**Frontend Masters** (17 agents)
+`react-wizard` `vue-virtuoso` `angular-authority` `svelte-sorcerer` `nextjs-architect` `remix-rockstar` `flutter-expert` `visual-architect` `tailwind-artist` `sass-sculptor` `webgl-wizard` `pwa-pioneer` `jamstack-ninja` `storybook-artist`
 
-**Backend & Infrastructure** (20 agents)
-`aws-architect` `gcp-architect` `azure-specialist` `kubernetes-pilot` `docker-captain` `terraform-master` `ansible-automation` `jenkins-expert` `gitlab-specialist` `github-actions-pro` `nginx-wizard` `linux-admin` `devops-maestro`
+**Backend & Infrastructure** (23 agents)
+`aws-architect` `gcp-architect` `azure-specialist` `kubernetes-pilot` `docker-captain` `terraform-master` `ansible-automation` `jenkins-expert` `gitlab-specialist` `github-actions-pro` `nginx-wizard` `linux-admin` `devops-maestro` `express-engineer` `fastapi-expert` `django-master` `rails-architect` `laravel-wizard` `flask-artisan` `spring-boot-guru` `nest-specialist`
 
 **Data & Databases** (12 agents)
 `postgresql-guru` `mongodb-master` `redis-specialist` `elasticsearch-expert` `kafka-commander` `database-wizard` `data-detective` `data-storyteller` `ml-ops-architect` `supabase-specialist`
 
+**Testing & Quality** (8 agents)
+`cypress-champion` `playwright-pro` `jest-ninja` `pytest-master` `vitest-virtuoso`
+
 **Security & Reliability** (10 agents)
 `chaos-engineer` `threat-modeler` `privacy-architect` `reliability-engineer` `incident-commander` `prometheus-expert` `istio-specialist` `accessibility-guardian`
 
-**Specialized** (5 agents)
-`quantum-developer` `blockchain-architect` `web3-builder` `ar-vr-developer` `embedded-engineer` `game-designer` `fintech-engineer` `api-archaeologist` `edge-computing-expert` `workflow-automator`
+**Specialized & Integration** (10 agents)
+`quantum-developer` `blockchain-architect` `web3-builder` `ar-vr-developer` `embedded-engineer` `game-designer` `fintech-engineer` `api-archaeologist` `edge-computing-expert` `workflow-automator` `openai-integrator` `stripe-specialist` `shopify-expert`
 
 ## Start Now
 

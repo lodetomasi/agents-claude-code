@@ -1,0 +1,115 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow Effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bgGradient)"/>
+  
+  <!-- Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  </pattern>
+  <rect width="1280" height="640" fill="url(#grid)" />
+  
+  <!-- Floating Particles -->
+  <circle cx="100" cy="100" r="2" fill="#00ff88" opacity="0.6">
+    <animate attributeName="cy" values="100;500;100" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="500" r="3" fill="#ff0088" opacity="0.5">
+    <animate attributeName="cy" values="500;100;500" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="200" r="2" fill="#0088ff" opacity="0.7">
+    <animate attributeName="cy" values="200;400;200" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="400" r="3" fill="#ffff00" opacity="0.4">
+    <animate attributeName="cy" values="400;150;400" dur="22s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="300" r="2" fill="#ff00ff" opacity="0.6">
+    <animate attributeName="cy" values="300;500;300" dur="17s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="150" r="3" fill="#00ffff" opacity="0.5">
+    <animate attributeName="cy" values="150;450;150" dur="19s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main Title -->
+  <text x="640" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#ffffff" filter="url(#glow)">
+    Elite Claude Agents
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="260" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#ffffff" opacity="0.9">
+    100 Hyper-Specialized AI Agents for Claude Code
+  </text>
+  
+  <!-- Agent Icons Row 1 -->
+  <g transform="translate(140, 340)">
+    <!-- React -->
+    <rect x="0" y="0" width="80" height="80" rx="10" fill="#61DAFB" opacity="0.8"/>
+    <text x="40" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#000">⚛️</text>
+    
+    <!-- Python -->
+    <rect x="100" y="0" width="80" height="80" rx="10" fill="#3776AB" opacity="0.8"/>
+    <text x="140" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">🐍</text>
+    
+    <!-- Kubernetes -->
+    <rect x="200" y="0" width="80" height="80" rx="10" fill="#326CE5" opacity="0.8"/>
+    <text x="240" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">☸️</text>
+    
+    <!-- Security -->
+    <rect x="300" y="0" width="80" height="80" rx="10" fill="#FF6B6B" opacity="0.8"/>
+    <text x="340" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">🔒</text>
+    
+    <!-- Database -->
+    <rect x="400" y="0" width="80" height="80" rx="10" fill="#336791" opacity="0.8"/>
+    <text x="440" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">🗄️</text>
+    
+    <!-- Cloud -->
+    <rect x="500" y="0" width="80" height="80" rx="10" fill="#FF9900" opacity="0.8"/>
+    <text x="540" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">☁️</text>
+    
+    <!-- AI/ML -->
+    <rect x="600" y="0" width="80" height="80" rx="10" fill="#00D4FF" opacity="0.8"/>
+    <text x="640" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">🤖</text>
+    
+    <!-- DevOps -->
+    <rect x="700" y="0" width="80" height="80" rx="10" fill="#FFA116" opacity="0.8"/>
+    <text x="740" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#000">🚀</text>
+    
+    <!-- Testing -->
+    <rect x="800" y="0" width="80" height="80" rx="10" fill="#00C853" opacity="0.8"/>
+    <text x="840" y="50" font-family="Arial" font-size="40" text-anchor="middle" fill="#fff">✅</text>
+    
+    <!-- More -->
+    <rect x="900" y="0" width="80" height="80" rx="10" fill="#9C27B0" opacity="0.8"/>
+    <text x="940" y="45" font-family="Arial" font-size="24" text-anchor="middle" fill="#fff">+90</text>
+    <text x="940" y="65" font-family="Arial" font-size="16" text-anchor="middle" fill="#fff">more</text>
+  </g>
+  
+  <!-- CTA -->
+  <rect x="490" y="480" width="300" height="60" rx="30" fill="#00ff88" opacity="0.9"/>
+  <text x="640" y="520" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000">
+    Start Building →
+  </text>
+  
+  <!-- Bottom tagline -->
+  <text x="640" y="590" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#ffffff" opacity="0.7">
+    Transform Claude into Your Personal Tech Army
+  </text>
+</svg>
