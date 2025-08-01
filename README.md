@@ -47,6 +47,119 @@ git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
 claude code install lorenzodetomasi/elite-claude-agents
 ```
 
+## 🎯 How to Use Elite Agents with Claude Code - Step by Step
+
+### Step 1: Install the Agents
+```bash
+cd ~/.claude
+git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
+```
+
+### Step 2: Start Claude Code
+```bash
+claude code
+```
+
+### Step 3: Use Agents in Your Conversations
+
+**Example 1: Building a React App**
+```
+You: I need to build a modern e-commerce site with React
+
+Claude: I'll assemble the right team for your e-commerce project:
+- react-wizard will handle the frontend architecture
+- nextjs-architect will set up SSR for SEO
+- stripe-specialist will implement payments
+- aws-architect will design the infrastructure
+
+Let's start with the React components...
+```
+
+**Example 2: Fixing Performance Issues**
+```
+You: My Node.js API is slow and timing out
+
+Claude: I'll activate performance-optimizer to diagnose this.
+[Analyzes code, identifies bottlenecks]
+- Found N+1 query problem in /api/products
+- Missing database indexes on user_id
+- No caching layer implemented
+
+Let me fix these issues...
+```
+
+**Example 3: Security Audit**
+```
+You: Can you review my authentication system for vulnerabilities?
+
+Claude: I'll use threat-modeler and penetration-tester for this security audit.
+[Performs comprehensive security analysis]
+- Found JWT tokens without expiration
+- Missing rate limiting on login endpoint
+- Passwords stored with weak hashing
+
+Here's how to fix each vulnerability...
+```
+
+### 💡 Pro Tips for Maximum Productivity
+
+1. **Be Specific About Your Needs**
+   ```
+   ❌ "Help me with React"
+   ✅ "Build a React dashboard with real-time data updates using WebSockets"
+   ```
+
+2. **Request Multiple Agents**
+   ```
+   "I need to build a secure payment system"
+   Claude automatically activates: stripe-specialist + security-architect + nodejs-expert
+   ```
+
+3. **Use Agents for Code Review**
+   ```
+   "Review this Kubernetes config for production best practices"
+   Claude uses: kubernetes-pilot + security-architect + reliability-engineer
+   ```
+
+4. **Combine Agents for Complex Tasks**
+   ```
+   "Migrate my monolith to microservices on AWS"
+   Claude assembles: aws-architect + kubernetes-pilot + docker-captain + migration-expert
+   ```
+
+### 🔥 Real Session Example
+
+```bash
+$ claude code
+
+You: I want to build a real-time collaborative editor like Google Docs
+
+Claude: I'll assemble a specialized team for building a real-time collaborative editor:
+
+🎯 **Activating agents:**
+- react-wizard (frontend architecture)
+- websocket-expert (real-time sync)
+- nodejs-expert (backend server)
+- mongodb-master (document storage)
+- redis-specialist (session management)
+
+Let's start with the architecture. Here's what we'll build:
+
+1. **Frontend (React + WebSockets)**
+   [Creates collaborative editor component with live cursors]
+
+2. **Backend (Node.js + Socket.io)**
+   [Implements operational transformation for conflict resolution]
+
+3. **Database Layer**
+   [Sets up MongoDB for documents, Redis for presence]
+
+4. **Real-time Sync Engine**
+   [Builds CRDT-based synchronization]
+
+[Continues building the entire system with production-ready code...]
+```
+
 ## Meet Your New Team
 
 ### 🔥 Crisis Control
