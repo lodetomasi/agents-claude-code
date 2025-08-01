@@ -1,5 +1,7 @@
 # 🚀 Elite Claude Agents Collection
 
+![Elite Claude Agents Banner](banner.svg)
+
 > 100 hyper-specialized AI agents that transform Claude into your personal tech army
 
 ## The Power-Up You've Been Waiting For
@@ -11,7 +13,7 @@ Imagine having instant access to 100 world-class specialists, each a master of t
 ```bash
 # Install in seconds
 cd ~/.claude
-git clone https://github.com/yourusername/elite-claude-agents.git agents
+git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
 
 # That's it. You're now unstoppable.
 ```
@@ -176,6 +178,8 @@ Ready to 10x your capabilities?
 
 ---
 
-**Built by developers, for developers who ship.**
+**Created by Lorenzo De Tomasi**
 
-*⭐ Star us on [GitHub](https://github.com/yourusername/elite-claude-agents)*
+Built with passion for developers who ship fast and break nothing.
+
+*⭐ Star us on [GitHub](https://github.com/lorenzodetomasi/elite-claude-agents)*
