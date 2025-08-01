@@ -24,7 +24,7 @@ Elite Claude Agents is a comprehensive collection of 100 AI-powered specialists 
 
 Imagine having instant access to 100 world-class specialists, each a master of their craft. No more context switching. No more shallow knowledge. Just deep, focused expertise on demand.
 
-## Lightning Setup ⚡
+## ⚡ Lightning Setup - Install Claude Code Agents in Seconds
 
 ```bash
 # Install in seconds
@@ -32,6 +32,19 @@ cd ~/.claude
 git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
 
 # That's it. You're now unstoppable.
+```
+
+### Alternative Installation Methods
+
+**For Windows Users:**
+```powershell
+cd %USERPROFILE%\.claude
+git clone https://github.com/lorenzodetomasi/elite-claude-agents.git agents
+```
+
+**Using Claude Code CLI:**
+```bash
+claude code install lorenzodetomasi/elite-claude-agents
 ```
 
 ## Meet Your New Team
